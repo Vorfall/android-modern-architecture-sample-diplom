@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/primaryDarkColor">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:visibility="gone"
+        android:id="@+id/main_container"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:visibility="gone"
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textViewAll"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAll"
+            android:onClick="onClickBottom"
+            android:text="1"
+            android:layout_weight="1"
+            android:background="@color/primaryColor"/>
+        <Button
+            android:visibility="gone"
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textViewAll"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAll"
+            android:onClick="onClickBottom"
+            android:text="2"
+            android:layout_weight="1"
+            android:background="@color/primaryColor"/>
+        <Button
+            android:visibility="gone"
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textViewAll"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAll"
+            android:onClick="onClickBottom"
+            android:text="3"
+            android:layout_weight="1"
+            android:background="@color/primaryColor"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+

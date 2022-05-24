@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.leverx.android_modern_architecture_sample.databinding.ActivityMainBinding
 import com.leverx.android_modern_architecture_sample.databinding.ActivityMasterBinding
+import com.leverx.android_modern_architecture_sample.translateapp.MainActivityQuiz
 import com.leverx.android_modern_architecture_sample.ui.compose.MainComposeActivity
 import com.leverx.android_modern_architecture_sample.ui.main.view.MainActivity
 
@@ -36,8 +37,8 @@ class MasterActivity : AppCompatActivity() {
         }
 
         binding.game.setOnClickListener {
-//            val intent = Intent(this, MainComposeActivity::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, MainActivityQuiz::class.java)
+            startActivity(intent)
         }
         binding.card.setOnClickListener {
 //            val intent = Intent(this, MainComposeActivity::class.java)
