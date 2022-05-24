@@ -40,7 +40,10 @@ class DetailScreenFragment : Fragment() {
         val urlImg = newsItem?.article?.urlToImage
         val title = newsItem?.article?.title
 
-        binding.txtScreenDetail.text = content
+        binding.txtScreenDetail.text = if(content!!.length<225) content +content + content
+        else{
+            content
+        }
         context?.let {
             Glide.with(it.applicationContext).load(urlImg).into(binding.imgScreenDetail)
         }

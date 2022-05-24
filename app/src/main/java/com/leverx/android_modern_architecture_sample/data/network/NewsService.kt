@@ -19,6 +19,8 @@ interface NewsService {
             from = 1,
             to = COUNT_ARTICLES.toLong()
         ) pageSize: Int = COUNT_ARTICLES,
+
+        @Query("language") language: String = "en",
         @Query("q") newsCategory: String = "Android",
         @Query("sortBy") sortBy: String = "date",
         @Query("apiKey") apiKey: String = "6635128a70ec471ca36ebbbcf869353d" // BuildConfig.API_KEY //  // BuildConfig.API_KEY //
@@ -27,6 +29,8 @@ interface NewsService {
     @GET("everything")
     suspend fun getSearchArticles(
         @Query("page") @IntRange(from = 1) page: Int = 1,
+        @Query("language") language: String = "en",
+
         @Query("pageSize") @IntRange(
             from = 1,
             to = COUNT_ARTICLES.toLong()
