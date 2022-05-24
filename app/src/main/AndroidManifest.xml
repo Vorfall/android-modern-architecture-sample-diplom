@@ -14,12 +14,16 @@
         android:theme="@style/Theme.AndroidModernArchitectureSample"
         android:windowSoftInputMode="adjustPan">
         <activity
+            android:name=".ui.main.view.MainActivity"
+
+            android:exported="false" />
+        <activity
             android:name=".ui.compose.MainComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_main_compose"
             android:theme="@style/Theme.AndroidModernArchitectureSample.NoActionBar" />
         <activity
-            android:name=".ui.main.view.MainActivity"
+            android:name=".MasterActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
