@@ -16,15 +16,17 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_word"
-            android:maxWidth="180dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:maxWidth="180dp"
             android:textAppearance="?attr/textAppearanceHeadline5"
             android:textColor="@color/primaryTextColor"
+            android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.539"
+            app:layout_constraintVertical_bias="0.497"
             tools:text="Word" />
 
         <com.google.android.material.button.MaterialButton
@@ -33,7 +35,7 @@
             android:maxWidth="200dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="@android:color/transparent"
+            android:backgroundTint="@android:color/white"
             android:padding="8dp"
             android:textAppearance="?attr/textAppearanceHeadline5"
             app:cornerRadius="16dp"
@@ -41,6 +43,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:strokeColor="@color/primaryTextColor"
+            android:textColor="@color/primaryTextColor"
+
             app:strokeWidth="2dp"
             tools:text="Translated" />
 
@@ -50,7 +54,7 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="@android:color/transparent"
+            android:backgroundTint="@android:color/white"
             android:padding="8dp"
             android:textAppearance="?attr/textAppearanceHeadline5"
             app:cornerRadius="16dp"
@@ -58,6 +62,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b_translate_1"
             app:strokeColor="@color/primaryTextColor"
+            android:textColor="@color/primaryTextColor"
+
             app:strokeWidth="2dp"
             tools:text="Translated" />
 
@@ -67,7 +73,7 @@
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="@android:color/transparent"
+            android:backgroundTint="@android:color/white"
             android:padding="8dp"
             android:textAppearance="?attr/textAppearanceHeadline5"
             app:cornerRadius="16dp"
@@ -75,23 +81,25 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b_translate_2"
             app:strokeColor="@color/primaryTextColor"
+            android:textColor="@color/primaryTextColor"
             app:strokeWidth="2dp"
             tools:text="Translated" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/b_translate_4"
-            android:maxWidth="200dp"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="@android:color/transparent"
+            android:maxWidth="200dp"
             android:padding="8dp"
             android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textColor="@color/primaryTextColor"
+            app:backgroundTint="@color/white"
             app:cornerRadius="16dp"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/b_translate_3"
-            app:strokeColor="@color/primaryTextColor"
             app:strokeWidth="2dp"
             tools:text="Translated" />
 

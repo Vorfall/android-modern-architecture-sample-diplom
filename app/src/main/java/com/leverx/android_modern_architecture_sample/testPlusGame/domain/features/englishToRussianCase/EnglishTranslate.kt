@@ -1,4 +1,4 @@
-package com.leverx.android_modern_architecture_sample.translateapp.domain.features.englishToRussianCase
+package com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.englishToRussianCase
 
 import android.view.View
 import com.example.academyhomework.utils.Utils

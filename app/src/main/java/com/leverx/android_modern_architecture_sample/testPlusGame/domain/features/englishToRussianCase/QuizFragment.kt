@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.example.academyhomework.TimerLiveData
 import com.example.academyhomework.domain.features.extensions.toEnglishTranslateList
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.repository.DataSource
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.repository.DataSource
 import com.leverx.android_modern_architecture_sample.R
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.englishToRussianCase.EnglishTranslate
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.englishToRussianCase.EnglishTranslate
 import kotlinx.coroutines.*
 
 class QuizFragment : Fragment(R.layout.fragment_quiz) {

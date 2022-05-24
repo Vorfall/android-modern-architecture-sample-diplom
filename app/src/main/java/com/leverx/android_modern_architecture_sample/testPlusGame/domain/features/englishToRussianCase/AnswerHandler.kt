@@ -1,6 +1,6 @@
 package com.example.academyhomework.domain.features.englishToRussianCase
 
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.englishToRussianCase.EnglishTranslate
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.englishToRussianCase.EnglishTranslate
 
 
 interface AnswerHandler {

@@ -3,9 +3,8 @@ package com.leverx.android_modern_architecture_sample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.leverx.android_modern_architecture_sample.databinding.ActivityMainBinding
 import com.leverx.android_modern_architecture_sample.databinding.ActivityMasterBinding
-import com.leverx.android_modern_architecture_sample.translateapp.MainActivityQuiz
+import com.leverx.android_modern_architecture_sample.testPlusGame.MainActivityQuiz
 import com.leverx.android_modern_architecture_sample.ui.compose.MainComposeActivity
 import com.leverx.android_modern_architecture_sample.ui.main.view.MainActivity
 

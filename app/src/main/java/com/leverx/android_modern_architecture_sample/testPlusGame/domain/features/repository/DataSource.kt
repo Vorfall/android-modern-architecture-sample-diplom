@@ -1,4 +1,4 @@
-package com.leverx.android_modern_architecture_sample.translateapp.domain.features.repository
+package com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.repository
 
 import android.content.Context
 import com.example.academyhomework.domain.features.simpleWordList.Dword

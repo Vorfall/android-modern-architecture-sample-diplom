@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
 import com.leverx.android_modern_architecture_sample.R
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.englishToRussianCase.EnglishTranslate
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.englishToRussianCase.EnglishTranslate
 
 class EnglishTranslateAdapter() : RecyclerView.Adapter<EnglishTranslateAdapter.ETViewHolder>() {
 

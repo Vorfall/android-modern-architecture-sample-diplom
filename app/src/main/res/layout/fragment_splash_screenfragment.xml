@@ -12,24 +12,22 @@
         android:id="@+id/textViewAll"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="@android:color/holo_green_light"
         android:background="@drawable/shape_oval"
-        android:text="All list"
+        android:backgroundTint="@android:color/holo_green_light"
         android:clickable="true"
         android:gravity="center"
-        android:textColor="@color/primaryColor"
+        android:text="All list"
         android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="@color/primaryColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guidelineRight"
         app:layout_constraintStart_toStartOf="@id/guidelineLeft"
-        app:layout_constraintTop_toBottomOf="@+id/tv_RE" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_ER" />
 
     <TextView
         android:id="@+id/tv_ER"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="16dp"
         android:background="@drawable/shape_oval"
         android:backgroundTint="@android:color/holo_orange_light"
         android:clickable="true"
@@ -37,27 +35,11 @@
         android:text="English - Russian"
         android:textAppearance="?attr/textAppearanceHeadline6"
         android:textColor="@color/primaryColor"
-        app:layout_constraintBottom_toTopOf="@+id/tv_RE"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/guidelineRight"
         app:layout_constraintStart_toStartOf="@id/guidelineLeft"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
-
-    <TextView
-        android:id="@+id/tv_RE"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:backgroundTint="@android:color/holo_blue_light"
-        android:background="@drawable/shape_oval"
-        android:text="Russian - English"
-        android:gravity="center"
-        android:clickable="true"
-        android:textColor="@color/primaryDarkColor"
-        android:textAppearance="?attr/textAppearanceHeadline6"
-        app:layout_constraintBottom_toTopOf="@+id/textViewAll"
-        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
-        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
-        app:layout_constraintTop_toBottomOf="@+id/tv_ER" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineLeft"
@@ -72,21 +54,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="100dp"/>
-
-    <Button
-        android:id="@+id/buttonDown"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/shape_oval"
-        android:rotation="180"
-        android:padding="0dp"
-        app:icon="@drawable/ic_baseline_keyboard_arrow_down_24"
-        app:iconGravity="start"
-        app:iconSize="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
-        />
 
     <TextView
         android:id="@+id/tv_timer"

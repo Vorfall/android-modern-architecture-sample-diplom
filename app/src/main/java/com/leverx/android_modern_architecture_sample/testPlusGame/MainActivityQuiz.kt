@@ -1,4 +1,4 @@
-package com.leverx.android_modern_architecture_sample.translateapp
+package com.leverx.android_modern_architecture_sample.testPlusGame
 
 import android.graphics.Color
 import android.os.Bundle

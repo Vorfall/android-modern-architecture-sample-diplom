@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.leverx.android_modern_architecture_sample.R
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.repository.DataSource
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.repository.DataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

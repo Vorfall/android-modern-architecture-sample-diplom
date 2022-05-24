@@ -1,7 +1,7 @@
 package com.example.academyhomework.domain.features.extensions
 
 import com.example.academyhomework.domain.features.simpleWordList.Dword
-import com.leverx.android_modern_architecture_sample.translateapp.domain.features.englishToRussianCase.EnglishTranslate
+import com.leverx.android_modern_architecture_sample.testPlusGame.domain.features.englishToRussianCase.EnglishTranslate
 import com.example.academyhomework.domain.features.russianToEnglishCase.RussianTranslate
 import com.example.academyhomework.utils.Utils
 
