@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="recyclerViewMain">
+        <item name="android:layout_width">@dimen/layout_width_recycler</item>
+        <item name="android:layout_height">@dimen/layout_height_recycler</item>
+        <item name="layout_constraintHorizontal_bias">@dimen/layout_constraintHorizontal_bias_recycler</item>
+        <item name="layout_constraintVertical_bias">@dimen/layout_constraintVertical_bias_recycler</item>
+    </style>
+
+    <style name="buttonSave">
+        <item name="android:layout_margin">@dimen/default_custom_margin</item>
+    </style>
+
+    <style name="editTextNews">
+        <item name="android:layout_margin">@dimen/default_custom_margin</item>
+        <item name="android:minHeight">@dimen/min_Height_editText</item>
+
+    </style>
+
+    <style name="textCardNews">
+        <item name="android:layout_marginEnd">@dimen/default_custom_margin</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="imgCardNews">
+        <item name="android:layout_height">@dimen/width_img_card</item>
+    </style>
+
+    <style name="CardNews">
+        <item name="android:layout_height">@dimen/layout_height_card</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_card</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_card</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_card</item>
+        <item name="cardCornerRadius">@dimen/card_Corner_Radius</item>
+        @dimen/
+    </style>
+
+    <style name="RelativeLayoutNews">
+        <item name="android:layout_height">@dimen/layout_height_RelativeLayoutNews</item>
+    </style>
+
+    <style name="LinearLayoutNews">
+        <item name="android:layout_height">@dimen/layout_height_view_cadrView</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginBottom_view_cadrView</item>
+        <item name="android:alpha">@dimen/alpha_LinearLayoutNews</item>
+    </style>
+
+    <style name="TextViewNewsSource">
+        <item name="android:layout_height">@dimen/layout_height_TextViewNewsSource</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft_TextViewNewsSource</item>
+        <item name="android:layout_weight">@dimen/layout_weight_TextViewNewsSource</item>
+        <item name="android:textSize">@dimen/textSize_TextViewNewsSource</item>
+    </style>
+
+    <style name="TextViewNewsDate">
+        <item name="android:layout_height">@dimen/layout_height_TextViewNewsSource</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginLeft_TextViewNewsDate</item>
+        <item name="android:layout_weight">@dimen/layout_weight_TextViewNewsSource</item>
+        <item name="android:textSize">@dimen/textSize_TextViewNewsSource</item>
+    </style>
+
+    <style name="TextViewNewsHeader">
+        <item name="android:layout_height">@dimen/layout_height_header_news</item>
+        <item name="android:paddingLeft">@dimen/paddingLeft_desc_head_news</item>
+        <item name="android:paddingTop">@dimen/paddingTop_header_news</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom_header_news</item>
+
+    </style>
+
+    <style name="TextViewNewsDescription">
+        <item name="android:layout_height">@dimen/layout_height_desc_news</item>
+        <item name="android:paddingLeft">@dimen/paddingLeft_desc_desc_news</item>
+
+    </style>
+
+    <style name="textDetail">
+        <item name="android:layout_margin">@dimen/layout_margin_text_detail</item>
+    </style>
+
+    <style name="MyDarkToolbarStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewFragmentDetail">
+        <item name="android:paddingBottom">@dimen/textview_padding_bottom_detail</item>
+        <item name="android:paddingStart">@dimen/textview_padding_start_detail</item>
+        <item name="android:textSize">@dimen/textview_text_size_detail</item>
+    </style>
+
+    <style name="AppBarFragmentDetail">
+        <item name="android:layout_height">@dimen/layout_height_appbar_detail</item>
+    </style>
+    <style name="TextviewToolbarMein">
+        <item name="android:textSize">@dimen/text_size_toolbar</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_left_toolbar</item>
+        <item name="android:paddingTop">@dimen/padding_top_toolbar</item>
+        <item name="android:layout_width">@dimen/layout_width_toolbar</item>
+<!--        <item name="android:layout_height">@dimen/layout_width_toolbar</item>-->
+    </style>
+
+    <style name="EditTextToolbarMein">
+        <item name="android:layout_width">@dimen/layout_width_toolbar_main</item>
+        <item name="android:layout_height">@dimen/layout_height_toolbar_main</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft_toolbar_main</item>
+    </style>
+    <style name="ViewCardView">
+        <item name="android:layout_height">@dimen/layout_height_view_cadrView</item>
+        <item name="android:layout_marginBottom">@dimen/layout_marginBottom_view_cadrView</item>
+        <item name="android:alpha">@dimen/alpha_LinearLayoutNews</item>
+    </style>
+
+</resources>
+

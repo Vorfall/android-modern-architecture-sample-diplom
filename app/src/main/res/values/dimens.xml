@@ -1,0 +1,70 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_text_size">12sp</dimen>
+    <dimen name="default_custom_margin">15dp</dimen>
+    <dimen name="width_img_card">240dp</dimen>
+    <dimen name="layout_height_recycler">670dp</dimen>
+    <dimen name="layout_constraintHorizontal_bias_recycler">0.351</dimen>
+    <dimen name="layout_constraintVertical_bias_recycler">1.0</dimen>
+    <dimen name="layout_width_recycler">390dp</dimen>
+    <dimen name="min_Height_editText">16dp</dimen>
+    <dimen name="layout_marginLeft_desc_head_news">25dp</dimen>
+
+    <dimen name="layout_height_TextViewNewsSource">50dp</dimen>
+    <dimen name="layout_weight_TextViewNewsSource">1</dimen>
+    <dimen name="textSize_TextViewNewsSource">22dp</dimen>
+
+    <!--    card-->
+    <dimen name="layout_height_card">320dp</dimen>
+    <dimen name="layout_margin_card">25dp</dimen>
+    <dimen name="card_Corner_Radius">8dp</dimen>
+    <!--    RelativeLayoutCard-->
+    <dimen name="layout_height_RelativeLayoutNews">236dp</dimen>
+
+    <!--    LinearLayoutCard-->
+    <dimen name="layout_height_view_cadrView">40dp</dimen>
+    <dimen name="layout_marginBottom_view_cadrView">20dp</dimen>
+    <dimen name="alpha_LinearLayoutNews">0.7</dimen>
+
+    <!--    TextViewSource-->
+    <dimen name="layout_marginLeft_TextViewNewsSource">18dp</dimen>
+
+    <!--    TextViewDate-->
+    <dimen name="layout_marginLeft_TextViewNewsDate">10dp</dimen>
+
+
+    <!--    TextViewHeader-->
+    <dimen name="layout_height_header_news">40dp</dimen>
+    <dimen name="paddingLeft_desc_head_news">15dp</dimen>
+    <dimen name="paddingTop_header_news">10dp</dimen>
+    <dimen name="paddingBottom_header_news">10dp</dimen>
+
+    <!--    TextViewDescription-->
+    <dimen name="layout_height_desc_news">40dp</dimen>
+    <dimen name="paddingLeft_desc_desc_news">15dp</dimen>
+
+    <!--    TextViewFragmentDetail-->
+    <dimen name="textview_padding_bottom_detail">16dp</dimen>
+    <dimen name="textview_padding_start_detail">56dp</dimen>
+    <dimen name="textview_text_size_detail">25sp</dimen>
+
+    <!--    AppBarFragmentDetail-->
+    <dimen name="layout_height_appbar_detail">168dp</dimen>
+
+
+    <!--    TextviewToolbarMein-->
+    <dimen name="text_size_toolbar">30dp</dimen>
+    <dimen name="layout_margin_left_toolbar">40dp</dimen>
+    <dimen name="padding_top_toolbar">9dp</dimen>
+    <dimen name="layout_width_toolbar">100dp</dimen>
+<!--    <dimen name="layout_height_toolbar">match_parent</dimen>-->
+
+    <!--    EditTextToolbarMein-->
+    <dimen name="layout_width_toolbar_main">70dp</dimen>
+    <dimen name="layout_height_toolbar_main">50dp</dimen>
+    <dimen name="layout_marginLeft_toolbar_main">50dp</dimen>
+
+
+    <dimen name="layout_margin_text_detail">26dp</dimen>
+
+</resources>

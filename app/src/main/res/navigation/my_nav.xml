@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainScreenFragment">
+
+    <fragment
+        android:id="@+id/detailScreenFragment"
+        android:name="com.leverx.android_modern_architecture_sample.ui.main.view.DetailScreenFragment"
+        android:label="fragment_detail_screen"
+        tools:layout="@layout/fragment_detail_screen" >
+        <action
+            android:id="@+id/action_detailScreenFragment_to_mainScreenFragment"
+            app:destination="@id/mainScreenFragment" />
+        <argument
+            android:name="id_article"
+            app:argType="string"
+            android:defaultValue="1" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreenFragment"
+        android:name="com.leverx.android_modern_architecture_sample.ui.main.view.MainScreenFragment"
+        android:label="fragment_main_screen"
+        tools:layout="@layout/fragment_main_screen" >
+        <action
+            android:id="@+id/action_mainScreenFragment_to_detailScreenFragment"
+            app:destination="@id/detailScreenFragment" />
+        <action
+            android:id="@+id/action_mainScreenFragment_to_mainComposeActivity"
+            app:destination="@id/mainComposeActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainComposeActivity"
+        android:name="com.leverx.android_modern_architecture_sample.ui.compose.MainComposeActivity"
+        android:label="MainComposeActivity" />
+
+</navigation>

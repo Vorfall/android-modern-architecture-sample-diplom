@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "771201264479",
+    "project_id": "androidmodernarchitecture",
+    "storage_bucket": "androidmodernarchitecture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771201264479:android:449e2514315462489ca4ea",
+        "android_client_info": {
+          "package_name": "com.leverx.android_modern_architecture_sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771201264479-61i43gr6naqqj7ku4u7oggm3lqjdt1f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leverx.android_modern_architecture_sample",
+            "certificate_hash": "c747b136cb56bdc0a0cef0b79c518a748d98e75c"
+          }
+        },
+        {
+          "client_id": "771201264479-flkab4qaq81e3lid4d8ri96mmhnbbvts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeBb6vLdHNHcrht34wnQIebhc-Z4D4bgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771201264479-flkab4qaq81e3lid4d8ri96mmhnbbvts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
