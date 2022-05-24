@@ -18,6 +18,10 @@
 
             android:exported="false" />
         <activity
+            android:name=".translateapp.MainActivityQuiz"
+
+            android:exported="false" />
+        <activity
             android:name=".ui.compose.MainComposeActivity"
             android:exported="false"
             android:label="@string/title_activity_main_compose"

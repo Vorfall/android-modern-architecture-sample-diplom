@@ -41,18 +41,18 @@
             android:id="@+id/textViewTranslate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:minHeight="40dp"
             android:maxWidth="60dp"
+            android:layout_weight="1"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_700"
             android:layout_margin="8dp"
             android:background="@drawable/shape_oval"
             android:layout_gravity="center_vertical"
             android:gravity="center"
             android:importantForAccessibility="no"
-            app:fontFamily="sans-serif-thin"
-            tools:text="@tools:sample/lorem"
+            app:fontFamily="sans-serif-black"
+            tools:text="@tools:sample/cities"
 
             />
     </LinearLayout>
